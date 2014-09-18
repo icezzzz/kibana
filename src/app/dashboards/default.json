@@ -67,7 +67,7 @@
     "default": "_all",
     "warm_fields": false
   },
-  "style": "dark",
+  "style": "light",
   "failover": false,
   "panel_hints": true,
   "pulldowns": [],
