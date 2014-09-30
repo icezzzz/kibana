@@ -144,7 +144,6 @@
           "type": "histogram",
           "mode": "count",
           "time_field": "TIMESTAMP",
-          "value_field": "numeric",
           "queries": {
             "mode": "all",
             "ids": [
@@ -229,7 +228,7 @@
           ],
           "type": "table",
           "size": 100,
-          "pages": 5,
+          "pages": 20,
           "offset": 0,
           "sort": [
             "_score",
@@ -258,7 +257,7 @@
           "title": "Documents",
           "all_fields": false,
           "localTime": false,
-          "timeField": "@timestamp"
+          "timeField": "TIMESTAMP"
         }
       ],
       "notice": false
@@ -335,7 +334,7 @@
         "2h",
         "1d"
       ],
-      "timefield": "@postDate",
+      "timefield": "TIMESTAMP",
       "enable": true
     }
   ],
