@@ -112,7 +112,7 @@ function (angular, app, _, kbn, moment) {
        * columns in the table, would trim each column at 20 character. The entirety of the field is
        * still available in the expanded view of the event.
        */
-      trimFactor: 300,
+      trimFactor: 3000000000000,
       /** @scratch /panels/table/5
        * localTime:: Set to true to adjust the timeField to the browser's local time
        */
